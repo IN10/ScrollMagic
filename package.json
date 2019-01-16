@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/janpaepke/ScrollMagic.git"
+    "url": "git://github.com/IN10/ScrollMagic.git"
   },
   "license": "(MIT OR GPL-3.0+)",
   "main": "scrollmagic/uncompressed/ScrollMagic.js",
@@ -72,7 +72,7 @@
     "jquery-plugin",
     "ecosystem:jquery"
   ],
-  "bugs": "https://github.com/janpaepke/ScrollMagic/issues",
+  "bugs": "https://github.com/IN10/ScrollMagic.git/issues",
   "files": [
     "scrollmagic",
     "LICENSE.md",
