@@ -160,8 +160,7 @@
 		 * @private
 		 */
 		var getViewportSize = function () {
-			console.log('getViewportSize', _util.get.height(_options.container));
-			return _options.vertical ? _util.get.height(_options.container) : _util.get.width(_options.container);
+			return _options.vertical ? _options.containerHeight : _options.containerWidth;
 		};
 
 		/**
@@ -724,7 +723,9 @@
 			vertical: true,
 			globalSceneOptions: {},
 			loglevel: 2,
-			refreshInterval: 100
+			refreshInterval: 100,
+			containerHeight: 0,
+			containerWidth: 0,
 		}
 	};
 	/*
@@ -745,6 +746,7 @@
 		ScrollMagic.Controller.prototype = oldClass.prototype; // copy prototype
 		ScrollMagic.Controller.prototype.constructor = ScrollMagic.Controller; // restore constructor
 	};
+
 
 
 	/**

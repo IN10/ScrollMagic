@@ -5,7 +5,9 @@ var CONTROLLER_OPTIONS = {
 		vertical: true,
 		globalSceneOptions: {},
 		loglevel: 2,
-		refreshInterval: 100
+		refreshInterval: 100,
+		containerHeight: 0,
+		containerWidth: 0,
 	}
 };
 /*
