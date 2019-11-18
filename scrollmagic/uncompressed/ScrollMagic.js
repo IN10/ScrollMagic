@@ -160,6 +160,7 @@
 		 * @private
 		 */
 		var getViewportSize = function () {
+			console.log('getViewportSize', _util.get.height(_options.container));
 			return _options.vertical ? _util.get.height(_options.container) : _util.get.width(_options.container);
 		};
 
