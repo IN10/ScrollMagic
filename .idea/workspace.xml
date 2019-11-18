@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7174090d-e967-46b3-9c10-2a6ee3b47d68" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/src/ScrollMagic/Controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev/src/ScrollMagic/Controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrollmagic/uncompressed/ScrollMagic.js" beforeDir="false" afterPath="$PROJECT_DIR$/scrollmagic/uncompressed/ScrollMagic.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dev/src/ScrollMagic/Controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="122" column="11" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
+            <state relative-caret-position="191">
+              <caret line="121" column="11" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -166,7 +168,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1887000" />
+    <option name="totallyTimeSpent" value="2439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="680" y="124" width="1170" height="981" extended-state="0" />
@@ -262,8 +264,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/src/ScrollMagic/Controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="122" column="11" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
+        <state relative-caret-position="191">
+          <caret line="121" column="11" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
         </state>
       </provider>
     </entry>
