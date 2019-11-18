@@ -322,8 +322,10 @@ ScrollMagic.Controller = function(options) {
 	 * @param {...mixed} output - One or more variables that should be passed to the console.
 	 */
 	this.setViewportSize = function (w, h) {
+		console.log('setViewPortSize', w, h);
 		_options.containerHeight = (h) ? h : window.innerHeight;
 		_options.containerWidth = (w) ? w : window.innerWidth;
+		console.log(_options);
 	};
 
 	/**
