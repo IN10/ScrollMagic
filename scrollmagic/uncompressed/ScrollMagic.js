@@ -160,7 +160,8 @@
 		 * @private
 		 */
 		var getViewportSize = function () {
-			return _options.vertical ? _options.containerHeight : _options.containerWidth;
+			return _options.vertical ? _util.get.height(_options.container) : _util.get.width(_options.container);
+			// return _options.vertical ? _options.containerHeight : _options.containerWidth;
 		};
 
 		/**
