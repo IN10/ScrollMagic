@@ -160,8 +160,6 @@
 		 * @private
 		 */
 		var getViewportSize = function () {
-			// return _options.vertical ? _util.get.height(_options.container) : _util.get.width(_options.container);
-			console.log(_options.containerHeight, _util.get.height(_options.container));
 			return _options.vertical ? _options.containerHeight : _options.containerWidth;
 		};
 
@@ -362,10 +360,9 @@
 		 * @param {...mixed} output - One or more variables that should be passed to the console.
 		 */
 		this.setViewportSize = function (w, h) {
-			console.log('setViewPortSize', w, h);
+			// console.log('setViewPortSize', w, h);
 			_options.containerHeight = (h) ? h : window.innerHeight;
 			_options.containerWidth = (w) ? w : window.innerWidth;
-			console.log(_options);
 		};
 
 		/**
