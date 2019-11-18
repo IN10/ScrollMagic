@@ -314,6 +314,17 @@ ScrollMagic.Controller = function(options) {
 	};
 
 	/**
+	 * sets the current viewport Size (width vor horizontal, height for vertical)
+	 * @public
+	 * @param {number} loglevel - The loglevel required to initiate output for the message.
+	 * @param {...mixed} output - One or more variables that should be passed to the console.
+	 */
+	this.setViewportSize = function (w, h) {
+		_options.containerHeight = (h) ? h : window.innerHeight;
+		_options.containerWidth = (w) ? w : window.innerWidth;
+	};
+
+	/**
 	 * Remove one ore more scene(s) from the controller.
 	 * This is the equivalent to `Scene.remove()`.
 	 * @public
